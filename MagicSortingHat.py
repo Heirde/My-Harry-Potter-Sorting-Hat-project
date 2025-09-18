@@ -1,6 +1,11 @@
+#Heirde :) 
+#Enjoy my beginner code!!!!!!
+
+#asks name before starting the Sorting Hat quiz
 name = input("Hello there, what is your name?: ")
 
-if name == "Harry Potter":
+#IF, ELIF, and Else statements for specific names and any other names to output a string
+if name == "Harry Potter": 
     print("wow a member of Gryffindor ayy!?")
 elif name == "Severus Snape" or "Voldemort":
     print("Wow a member of Slytherin!?")
@@ -10,7 +15,8 @@ else:
     print("Well your an insignificant Hufflepuff or Ravenclaw then!")
 
 ########################################################################################################################################################
-slytherin = 0
+#this is the original scores of all houses so the scores can be calculated at the end
+slytherin = 0 
 ravenclaw = 0 
 hufflepuff = 0
 gryffindor = 0
@@ -65,16 +71,18 @@ elif answer == 2:
 else:
     print("Try again?")
 
-print("Gryffindor: ", gryffindor)
+print("Gryffindor: ", gryffindor) #this will print out the new scores with the added on points after quiz is finished
 print("Hufflepuff: ", hufflepuff)
 print("Slytherin: ", slytherin)
 print("Ravenclaw: ", ravenclaw)
 
 ############################################################################
 
-if gryffindor > hufflepuff > slytherin > ravenclaw:
+#these if and else statements will print who has won depending on the scores
+print("=== THE MAGIC HAT HAS CHOSEN! ===") 
+
+if gryffindor > hufflepuff > slytherin > ravenclaw: 
     print("Gryffindor and hufflepuff win!") 
 else:
     print("slytherin and ravenclaw win!") 
 
-print("=== THE MAGIC HAT HAS CHOSEN! ===") 
