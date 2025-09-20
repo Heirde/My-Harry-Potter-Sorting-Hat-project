@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning **L3 Diploma IT and Computing**
 
-- 👨‍💻 All of my projects are available at [My Github]
+- 👨‍💻 All of my projects are available at [[My Github]](https://github.com/Heirde/My-Harry-Potter-Sorting-Hat-project)
 
 - 📫 How to reach me **deninheir31@gmail.com**
 
